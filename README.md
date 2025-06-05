@@ -6,7 +6,9 @@ A full-stack Expense Tracking web application built with **Spring Boot (Java)** 
 
 web5/
 ├── expense-tracker-backend/ # Spring Boot backend
+
 ├── expense-tracker-frontend/ # React.js frontend
+
 └── README.md # Project documentation
 
 ## 🚀 Features
@@ -41,18 +43,24 @@ web5/
 git clone https://github.com/honore-munyemana/ExpenseTracker-.git
 cd ExpenseTracker-
 
-## 2. Backend Setup
+### 2. Backend Setup
 
 cd expense-tracker-backend
-# configure application.properties for your PostgreSQL DB
+### configure application.properties for your PostgreSQL DB
 ./mvnw spring-boot:run
 
-## 3. Frontend Setup
+### 3. Frontend Setup
 
 cd ../expense-tracker-frontend
 npm install
 npm start
 
+## ✅ Author
+👤 Honore Munyemana
+🌍 Rwanda
+📧 honoremushya@gmail.com
 
+## 📝 License
+This project is licensed under the MIT License.
 
 
