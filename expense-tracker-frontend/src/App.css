@@ -1,0 +1,23 @@
+/* App container styles */
+.app-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 10;
+}
+
+/* Override any problematic elements */
+body::before,
+body::after,
+#root::before,
+#root::after {
+  display: none !important;
+}
+
+/* Hide the large black semi-circle specifically */
+body > svg,
+body > div:not(#root),
+#root > svg,
+#root > div:first-child:not(.app-container) {
+  display: none !important;
+} 

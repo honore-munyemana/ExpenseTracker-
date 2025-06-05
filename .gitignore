@@ -1,0 +1,18 @@
+# Node modules (React frontend)
+node_modules/
+dist/
+.env
+
+# Java backend
+target/
+*.log
+
+# OS/system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/Editor config
+.vscode/
+.idea/
+*.iml
